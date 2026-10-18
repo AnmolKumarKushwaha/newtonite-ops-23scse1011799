@@ -1,0 +1,10 @@
+node_modules
+.git
+.openai
+.sites-runtime
+.wrangler
+dist
+dist-local
+data
+*.zip
+.env*

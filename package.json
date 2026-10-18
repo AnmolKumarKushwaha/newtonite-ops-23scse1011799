@@ -1,0 +1,40 @@
+{
+  "name": "relay-newtonite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "start": "node server/local.mjs",
+    "start:local": "node server/local.mjs",
+    "build": "vite build --config vite.local.config.mjs",
+    "build:local": "vite build --config vite.local.config.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "seed:large": "node server/seed-large.mjs",
+    "db:generate": "drizzle-kit generate",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0",
+    "drizzle-orm": "0.45.2"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "drizzle-kit": "0.31.10"
+  },
+  "pnpm": {
+    "overrides": {
+      "miniflare>sharp": "0.35.4"
+    }
+  }
+}

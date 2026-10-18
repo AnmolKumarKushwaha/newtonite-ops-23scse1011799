@@ -1,0 +1,6 @@
+node_modules/
+data/
+.env
+.env.local
+*.log
+# dist-local is included for an installation-free demo. Rebuild after frontend edits.
