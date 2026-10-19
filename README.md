@@ -4,6 +4,16 @@ Relay is an internal workspace for teams handling incidents, customer issues, pa
 
 Built for the Newtonite Software Engineering Challenge. The application implementation and documentation were developed for this brief with AI assistance. See [ORIGINALITY.md](ORIGINALITY.md) for provenance and [ENGINEERING_DECISIONS.md](ENGINEERING_DECISIONS.md) for trade-offs.
 
+## Product snapshots
+
+### Login experience
+
+![Relay login screen](docs/assets/relay-login.png)
+
+### Work overview and team queue
+
+![Relay work overview](docs/assets/relay-work-overview.png)
+
 ## Run in two minutes
 
 ### Option A: Docker Desktop

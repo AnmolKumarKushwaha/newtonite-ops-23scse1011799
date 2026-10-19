@@ -2,6 +2,18 @@
 
 These decisions explain the actual implementation, including where it takes shortcuts. They should be reviewed and defended by the candidate, rather than treated as a script to memorize.
 
+## Product snapshots
+
+The product intentionally presents a simple operating view that keeps work movement, ownership, and approval stages visible at a glance.
+
+### Login screen
+
+![Relay login screen](docs/assets/relay-login.png)
+
+### Work overview
+
+![Relay work overview](docs/assets/relay-work-overview.png)
+
 ## 1. One application service, two database adapters
 
 **Context.** The reviewer needs a simple local run, and the project also needs a working hosted version. Provisioning Redis and a separate database would add setup work before the reviewer can exercise the important behaviour.
